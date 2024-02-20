@@ -3,7 +3,6 @@ import torch.nn.functional as F
 
 class Generator(nn.Module):
     def __init__(self, inp_vector, num_generated_features, num_channels, ngpu):
-        print("HELLOOO")
         super(Generator, self).__init__()
         self.ngpu = ngpu
         self.inp_vector = inp_vector

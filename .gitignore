@@ -2,4 +2,6 @@ DCGAN/data/*
 Digit_Classifier/data/*
 Digit_Classifier/cifar_net_path
 DCGAN/__pycache__/*
+DCGAN/opt/*
+DCGAN/.env
 .vscode
