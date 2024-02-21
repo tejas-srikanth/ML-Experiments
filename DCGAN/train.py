@@ -113,7 +113,6 @@ def train(args, discriminator, generator, dataloader, G_opt, D_opt, criterion, d
     # fake_noise = torch.randn(64, 100, 1, 1)
 
     for i, data in enumerate(dataloader):
-        print("HIIII")
 
         #TRAIN DISCRIMINATOR
         # run real images through discriminator
